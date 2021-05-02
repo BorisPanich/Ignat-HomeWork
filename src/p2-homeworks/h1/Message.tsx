@@ -1,8 +1,28 @@
-import React from 'react'
+import React from 'react';
+import s from "./Message.module.css";
 
-function Message() {
+type MessageDataType = {
+    avatar: string
+    name: string
+    message: string
+    time: string
+}
+
+type MessageType = {
+    messageData: MessageDataType
+}
+
+function Message(props: MessageType) {
     return (
-        <div>
+        <div className={s.message}>
+            <img className={s.img} alt='Текст' src={props.messageData.avatar}/>
+            <div className={s.content}>
+                <div className={s.name}>{props.messageData.name}</div>
+                <div className={s.text}>{props.messageData.message}</div>
+                <div className={s.time}>{props.messageData.time}</div>
+            </div>
+
+            <div className={s.clear}></div>
 
         </div>
     )
