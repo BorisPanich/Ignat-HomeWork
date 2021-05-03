@@ -1,3 +1,28 @@
-.someClass {
+.button {
+    color: black;
+    text-decoration: none;
+    user-select: none;
+    background: rgb(222, 209, 208);
+    padding: .2em 0.5em;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
 
+.button:hover {
+    background: rgb(227, 23, 217);
+}
+
+.button:active {
+    background: rgb(56, 205, 16);
+}
+
+
+.content {
+    text-align: center;
+    border: 1px solid #c1c1c1;
+    border-radius: 10px;
+    width: 200px;
+    padding: 5px;
+    margin: 0 auto;
 }

@@ -20,9 +20,6 @@ function Message(props: MessageDataType) {
                 <div className={s.text}>{props.message}</div>
                 <div className={s.time}>{props.time}</div>
             </div>
-
-            <div className={s.clear}></div>
-
         </div>
     )
 }
