@@ -1,25 +1,24 @@
 import React from 'react';
 import s from "./Message.module.css";
 
-type MessageDataType = {
+export type MessageDataType = {
     avatar: string
     name: string
     message: string
     time: string
 }
 
-type MessageType = {
-    messageData: MessageDataType
-}
-
-function Message(props: MessageType) {
+function Message(props: MessageDataType) {
     return (
         <div className={s.message}>
-            <img className={s.img} alt='Текст' src={props.messageData.avatar}/>
+            <img className={s.img} alt={'Avatar'} src={props.avatar}/>
+
+            <div className={s.angle}/>
+
             <div className={s.content}>
-                <div className={s.name}>{props.messageData.name}</div>
-                <div className={s.text}>{props.messageData.message}</div>
-                <div className={s.time}>{props.messageData.time}</div>
+                <div className={s.name}>{props.name}</div>
+                <div className={s.text}>{props.message}</div>
+                <div className={s.time}>{props.time}</div>
             </div>
 
             <div className={s.clear}></div>
