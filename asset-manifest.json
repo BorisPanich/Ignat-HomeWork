@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Ignat-HomeWork/static/css/main.e9d811c1.chunk.css",
+    "main.js": "/Ignat-HomeWork/static/js/main.6aafa122.chunk.js",
+    "main.js.map": "/Ignat-HomeWork/static/js/main.6aafa122.chunk.js.map",
+    "runtime-main.js": "/Ignat-HomeWork/static/js/runtime-main.2e87f589.js",
+    "runtime-main.js.map": "/Ignat-HomeWork/static/js/runtime-main.2e87f589.js.map",
+    "static/js/2.7bf06a30.chunk.js": "/Ignat-HomeWork/static/js/2.7bf06a30.chunk.js",
+    "static/js/2.7bf06a30.chunk.js.map": "/Ignat-HomeWork/static/js/2.7bf06a30.chunk.js.map",
+    "index.html": "/Ignat-HomeWork/index.html",
+    "precache-manifest.8bf9729aa55de4db8868986bb86137de.js": "/Ignat-HomeWork/precache-manifest.8bf9729aa55de4db8868986bb86137de.js",
+    "service-worker.js": "/Ignat-HomeWork/service-worker.js",
+    "static/css/main.e9d811c1.chunk.css.map": "/Ignat-HomeWork/static/css/main.e9d811c1.chunk.css.map",
+    "static/js/2.7bf06a30.chunk.js.LICENSE.txt": "/Ignat-HomeWork/static/js/2.7bf06a30.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e87f589.js",
+    "static/js/2.7bf06a30.chunk.js",
+    "static/css/main.e9d811c1.chunk.css",
+    "static/js/main.6aafa122.chunk.js"
+  ]
+}
