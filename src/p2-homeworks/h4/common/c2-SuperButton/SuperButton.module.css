@@ -1,7 +1,47 @@
-.default {
-
+.button {
+    box-shadow: inset 0 0 0 0 #ffffff;
+    background: linear-gradient(to bottom, #feffe0 5%, #dcf5f4 100%);
+    background-color: #feffe0;
+    border-radius: 9px;
+    border: 1px solid #1a97ad;
+    display: inline-block;
+    cursor: pointer;
+    color: #027171;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 7px 7px;
+    text-decoration: none;
+    text-shadow: 0 -2px 0 #e0e0e0;
+    outline: none;
 }
 
-.red {
-    background: red;
+.button:hover {
+    background: linear-gradient(to bottom, #dcf5f4 5%, #feffe0 100%);
+    background-color: #dcf5f4;
+}
+.button:active {
+    position: relative;
+    top: 1px;
+    outline: none;
+}
+
+
+.redButton {
+    color: black;
+    text-decoration: none;
+    user-select: none;
+    background: rgb(239, 15, 0);
+    padding: .5em 1.5em;
+    outline: none;
+    border: 1px solid #bf7c7c;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.redButton:hover {
+    background: rgb(255, 78, 66);
+}
+.redButton:active {
+    background: rgb(255, 140, 125);
 }

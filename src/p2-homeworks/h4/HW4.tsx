@@ -30,7 +30,7 @@ function HW4() {
                     onChangeText={setText}
                     onEnter={showAlert}
                     error={error}
-                    // spanClassName={s.testSpanError}
+                    spanClassName={s.testSpanError}
                 />
 
                 <SuperInputText
@@ -46,12 +46,13 @@ function HW4() {
                 <SuperButton
                     red // пропсу с булевым значением не обязательно указывать true
                     onClick={showAlert}
+                    className={s.button}
                 >
-                    delete {/*// название кнопки попадёт в children*/}
+                    superButton {/*// название кнопки попадёт в children*/}
                 </SuperButton>
 
                 <SuperButton disabled>
-                    disabled
+                    superButton disabled
                 </SuperButton>
 
                 {/*----------------------------------------------------*/}
@@ -60,7 +61,7 @@ function HW4() {
                     checked={checked}
                     onChangeChecked={setChecked}
                 >
-                    some text {/*// этот текст попадёт в children*/}
+                    superCheckbox / some text {/*// этот текст попадёт в children*/}
                 </SuperCheckbox>
 
                 {/*// onChange тоже должен работать*/}

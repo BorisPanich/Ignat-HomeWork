@@ -26,6 +26,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
             setError(false)
             setTimeout(() => alert(`Hello ${name} !`), 100); // need to fix
             addUserCallback(name)
+            setName('')
         }
     }
 
